@@ -14,4 +14,5 @@ h1 {
 
 .hero > .navbar {
     display: flex;
+    padding-top: 24px;
 }
