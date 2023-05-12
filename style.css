@@ -17,6 +17,16 @@ img {
     width: 100%;
 }
 
+/* PADDING */
+section {
+    padding: 24px 5%;
+}
+
+section.hero > .content {
+    padding: 48px 0;
+}
+
+
 /*FONT SIZE*/
 ul>a {
     font-size: 18px;
@@ -105,7 +115,6 @@ section.hero>* {
 section {
     justify-content: center;
     width: 100%;
-    padding: 24px 5%;
 }
 
 h1 {
