@@ -13,8 +13,10 @@ a {
 }
 
 /* HEIGHT*/
-div.image {
-    height: 100%;
+
+
+section.info div.image {
+    height: 144px;
 }
 
 /* WIDTH */
@@ -30,7 +32,8 @@ section {
     padding: 24px 5%;
 }
 
-section.hero > .content {
+section.hero > .content,
+section.info > .cards {
     padding-top: 48px;
     padding-bottom: 48px;
 }
@@ -39,6 +42,9 @@ button {
     padding: 12px 24px;
 }
 
+section.info .card p {
+    padding: 8px;
+}
 
 /*FONT SIZE*/
 ul>a,
@@ -94,7 +100,7 @@ section.action .modal {
     background-color: #3882F6;
 }
 
-div.image {
+section.hero div.image {
     background-color: GRAY;
 }
 
@@ -105,6 +111,10 @@ section.hero button {
 
 section.action button {
     border: white;
+}
+
+section.info div.image {
+    border: solid #3882F6;
 }
 
 div.image {
@@ -120,13 +130,20 @@ section,
 nav > ul,
 section.hero > *,
 section.hero > * > *,
+.cards,
+.card,
 .navbar {
     display: flex;
 }
 
 /* FLEX ITEMS */
+
 section.hero > .content > * {
     flex: 1;
+}
+
+.card {
+    flex: 0 1 150px;
 }
 
 section>* {
@@ -138,6 +155,8 @@ body,
 section,
 nav > ul,
 section.hero>.content>.text,
+.cards,
+.card,
 .navbar {
     flex-wrap: wrap;
 }
@@ -149,15 +168,21 @@ section.hero>.content>.text,
 }
 
  nav>ul {
-     gap: 24px;
+    gap: 24px;
+ }
+
+ .cards {
+    gap: 48px;
  }
 
 section.hero>* {
-     gap: 4%;
+    gap: 4%;
  }
 
 /* JUSTIFY CONTENT */
 div.image,
+.cards,
+.card,
 section {
     justify-content: center;
 }
