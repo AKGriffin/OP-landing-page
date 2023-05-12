@@ -9,20 +9,43 @@ body {
 }
 
 /*TEXT COLORS*/
+h1,
+section.hero .primary,
+button {
+    color: #F9FAF8
+}
 
-h1 {
-    color: #e5e7eb
+img,
+section.hero .secondary,
+ul > a {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 /*BACKGROUND COLORS*/
-
+footer,
 section.hero {
     background-color: #1F2937;
 }
 
+section.quote {
+    background-color: #E5E7EB;
+}
+
+button,
+section.action .modal {
+    background-color: #3882F6;
+}
+
 /* FLEX CONTAINER */
-body, section, nav > ul, .navbar {
+body, section, nav > ul, section.hero > .content, .navbar {
     display: flex;
+}
+
+/* FLEX ITEMS */
+
+section.hero > .content > * {
+    flex: 1;
 }
 
 /* FLEX WRAP */
