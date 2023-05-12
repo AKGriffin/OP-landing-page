@@ -64,12 +64,14 @@ section.action .modal {
 }
 
 /* FLEX CONTAINER */
-body, section, nav > ul, section.hero > .content, .navbar {
+body, section,
+nav > ul,
+section.hero > .content,
+.navbar {
     display: flex;
 }
 
 /* FLEX ITEMS */
-
 section.hero > .content > * {
     flex: 1;
 }
@@ -86,6 +88,10 @@ nav > ul,
  nav > ul{
     gap: 12px;
 }
+
+section.hero>* {
+     gap: 2.5%;
+ }
 
 section {
     justify-content: center;
