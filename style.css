@@ -12,6 +12,11 @@ a {
     text-decoration: none;
 }
 
+/* WIDTH */
+img {
+    width: 100%;
+}
+
 /*FONT SIZE*/
 ul>a {
     font-size: 18px;
