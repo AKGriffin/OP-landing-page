@@ -18,9 +18,12 @@ div.image {
 }
 
 /* WIDTH */
-div.image {
+div.image,
+section {
     width: 100%;
 }
+
+/* MARGIN */
 
 /* PADDING */
 section {
@@ -115,9 +118,8 @@ button {
 body,
 section,
 nav > ul,
-section.hero > .content,
-section.hero > .content > .text,
-section.hero > .content > .image,
+section.hero > *,
+section.hero > * > *,
 .navbar {
     display: flex;
 }
@@ -165,8 +167,9 @@ div.image {
     align-items: center;
 }
 
-section {
-    width: 100%;
+/* TEXT ALIGN */
+section.info {
+    text-align: center;
 }
 
 h1 {
