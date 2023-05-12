@@ -48,7 +48,7 @@ h1 {
     font-size: 24px;
 }
 
-section.info h2 {
+h2 {
     font-size: 36px;
 }
 
@@ -112,7 +112,8 @@ button {
     border-radius: 24px
 }
 /* FLEX CONTAINER */
-body, section,
+body,
+section,
 nav > ul,
 section.hero > .content,
 section.hero > .content > .text,
@@ -154,7 +155,8 @@ section.hero>* {
  }
 
 /* JUSTIFY CONTENT */
-div.image {
+div.image,
+section {
     justify-content: center;
 }
 
@@ -164,7 +166,6 @@ div.image {
 }
 
 section {
-    justify-content: center;
     width: 100%;
 }
 
