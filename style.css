@@ -12,6 +12,28 @@ a {
     text-decoration: none;
 }
 
+/*FONT SIZE*/
+ul>a {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+section.info h2 {
+    font-size: 36px;
+}
+
+section.hero .primary {
+    font-size: 48px;
+}
+
+/*FONT WEIGHT*/
+section.hero .primary {
+    font-weight: bolder;
+}
+
 /*TEXT COLORS*/
 h1,
 section.hero .primary,
