@@ -98,7 +98,7 @@ section.hero > .content > * {
 }
 
 section>* {
-    flex: .05 1 1000px;
+    flex: .05 1 900px;
 }
 
 /* FLEX WRAP */
@@ -115,6 +115,10 @@ section.hero>.content>.text,
  section.hero>.content>.text {
     gap: 12px;
 }
+
+ nav>ul {
+     gap: 24px;
+ }
 
 section.hero>* {
      gap: 2.5%;
