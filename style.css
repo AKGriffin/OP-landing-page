@@ -3,16 +3,40 @@
     margin: 0;
 }
 
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+/* FLEX CONTAINER */
+body, section, nav, .navbar {
+    display: flex;
+}
+
+/* FLEX WRAP */
+body,
+section,
+nav,
+.navbar {
+    flex-wrap: wrap;
+}
+
+section {
+    justify-content: center;
+    width: 100%;
+    padding: 24px 5%;
+}
+
+section > * {
+    flex: .05 1 1000px;
+}
+
 h1 {
     font-size: 24px;
+    margin-right: auto;
     color: #e5e7eb
 }
 
 .hero {
     background-color: #1F2937;
-}
-
-.hero > .navbar {
-    display: flex;
-    padding-top: 24px;
 }
