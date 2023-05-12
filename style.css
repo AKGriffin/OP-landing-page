@@ -104,6 +104,10 @@ section.action button {
     border: white;
 }
 
+div.image {
+    border-radius: 8px;
+}
+
 button {
     border-radius: 24px
 }
