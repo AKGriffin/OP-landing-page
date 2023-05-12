@@ -76,6 +76,10 @@ section.hero > .content > * {
     flex: 1;
 }
 
+section>* {
+    flex: .05 1 1000px;
+}
+
 /* FLEX WRAP */
 body,
 section,
@@ -97,10 +101,6 @@ section {
     justify-content: center;
     width: 100%;
     padding: 24px 5%;
-}
-
-section > * {
-    flex: .05 1 1000px;
 }
 
 h1 {
