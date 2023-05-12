@@ -9,16 +9,21 @@ body {
 }
 
 /* FLEX CONTAINER */
-body, section, nav, .navbar {
+body, section, nav > ul, .navbar {
     display: flex;
 }
 
 /* FLEX WRAP */
 body,
 section,
-nav,
+nav > ul,
 .navbar {
     flex-wrap: wrap;
+}
+
+/* FLEX GAP */
+ nav > ul{
+    gap: 12px;
 }
 
 section {
