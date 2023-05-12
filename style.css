@@ -50,7 +50,8 @@ section.hero .primary {
 }
 
 /*FONT WEIGHT*/
-section.hero .primary {
+section.hero .primary,
+button {
     font-weight: bolder;
 }
 
@@ -83,6 +84,18 @@ section.action .modal {
     background-color: #3882F6;
 }
 
+/* BORDER */
+section.hero button {
+    border: none;
+}
+
+section.action button {
+    border: white;
+}
+
+button {
+    border-radius: 24px
+}
 /* FLEX CONTAINER */
 body, section,
 nav > ul,
@@ -121,7 +134,7 @@ section.hero>.content>.text,
  }
 
 section.hero>* {
-     gap: 2.5%;
+     gap: 4%;
  }
 
 section {
