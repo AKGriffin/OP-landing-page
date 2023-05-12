@@ -8,6 +8,18 @@ body {
     align-items: center;
 }
 
+/*TEXT COLORS*/
+
+h1 {
+    color: #e5e7eb
+}
+
+/*BACKGROUND COLORS*/
+
+section.hero {
+    background-color: #1F2937;
+}
+
 /* FLEX CONTAINER */
 body, section, nav > ul, .navbar {
     display: flex;
@@ -39,9 +51,5 @@ section > * {
 h1 {
     font-size: 24px;
     margin-right: auto;
-    color: #e5e7eb
 }
 
-.hero {
-    background-color: #1F2937;
-}
