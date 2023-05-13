@@ -85,6 +85,11 @@ ul > a {
     color: #e5e7eb;
 }
 
+h2,  
+section.info p {
+    color: #1F2937;
+}
+
 /*BACKGROUND COLORS*/
 footer,
 section.hero {
