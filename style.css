@@ -27,13 +27,22 @@ section {
 
 /* MARGIN */
 
+h1 {
+    margin-right: auto;
+}
+
+figcaption {
+    margin-left: auto;
+}
+
 /* PADDING */
 section {
     padding: 24px 5%;
 }
 
 section.hero > .content,
-section.info > .cards {
+section.info > .cards,
+figure {
     padding-top: 48px;
     padding-bottom: 48px;
 }
@@ -53,11 +62,13 @@ section.hero .secondary {
     font-size: 18px;
 }
 
-h1 {
+h1,
+figcaption {
     font-size: 24px;
 }
 
-h2 {
+h2,
+blockquote{
     font-size: 36px;
 }
 
@@ -67,8 +78,14 @@ section.hero .primary {
 
 /*FONT WEIGHT*/
 section.hero .primary,
-button {
+button,
+figcaption {
     font-weight: bolder;
+}
+
+/* FONT STYLE */
+blockquote {
+    font-style: italic;
 }
 
 /*TEXT COLORS*/
@@ -132,6 +149,7 @@ button {
 /* FLEX CONTAINER */
 body,
 section,
+figure,
 nav > ul,
 section.hero > *,
 section.hero > * > *,
@@ -155,9 +173,14 @@ section>* {
     flex: .05 1 900px;
 }
 
+figure {
+    flex: 0 1 744px;
+}
+
 /* FLEX WRAP */
 body,
 section,
+figure,
 nav > ul,
 section.hero>.content>.text,
 .cards,
@@ -197,13 +220,12 @@ div.image {
     align-items: center;
 }
 
+
+
 /* TEXT ALIGN */
 section.info {
     text-align: center;
 }
 
-h1 {
-    font-size: 24px;
-    margin-right: auto;
-}
+
 
