@@ -35,6 +35,10 @@ figcaption {
     margin-left: auto;
 }
 
+section.action {
+    margin: 72px 0px;
+}
+
 /* PADDING */
 section {
     padding: 24px 5%;
@@ -63,7 +67,8 @@ section.hero .secondary {
 }
 
 h1,
-figcaption {
+figcaption,
+.modal h2 {
     font-size: 24px;
 }
 
@@ -92,6 +97,8 @@ blockquote {
 h1,
 section.hero .primary,
 div.image,
+.modal,
+.modal h2,
 button {
     color: #F9FAF8
 }
@@ -118,7 +125,7 @@ section.quote {
 }
 
 button,
-section.action .modal {
+section.action {
     background-color: #3882F6;
 }
 
@@ -132,14 +139,15 @@ section.hero button {
 }
 
 section.action button {
-    border: white;
+    border: solid white;
 }
 
 section.info div.image {
     border: solid #3882F6;
 }
 
-div.image {
+div.image,
+section.action {
     border-radius: 8px;
 }
 
@@ -155,7 +163,8 @@ section.hero > *,
 section.hero > * > *,
 .cards,
 .card,
-.navbar {
+.navbar,
+div.modal {
     display: flex;
 }
 
@@ -169,11 +178,13 @@ section.hero > .content > * {
     flex: 0 1 150px;
 }
 
-section>* {
+section>*,
+section.action {
     flex: .05 1 900px;
 }
 
-figure {
+figure,
+div.modal {
     flex: 0 1 744px;
 }
 
@@ -213,6 +224,10 @@ div.image,
 .card,
 section {
     justify-content: center;
+}
+
+div.modal {
+    justify-content: space-between;
 }
 
 /* ALIGN ITEMS */
