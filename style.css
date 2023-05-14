@@ -6,6 +6,7 @@
 body {
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 a {
@@ -36,12 +37,17 @@ figcaption {
 }
 
 section.action {
-    margin: 72px 0px;
+    margin: 72px 5%;
 }
 
 /* PADDING */
 section {
     padding: 24px 5%;
+}
+
+section.action {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 section.hero > .content,
@@ -57,6 +63,11 @@ button {
 
 section.info .card p {
     padding: 8px;
+}
+
+div.modal {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 /*FONT SIZE*/
