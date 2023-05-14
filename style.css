@@ -22,7 +22,8 @@ section.info div.image {
 
 /* WIDTH */
 div.image,
-section {
+section,
+footer {
     width: 100%;
 }
 
@@ -52,7 +53,8 @@ section.action {
 
 section.hero > .content,
 section.info > .cards,
-figure {
+figure,
+footer {
     padding-top: 48px;
     padding-bottom: 48px;
 }
@@ -116,6 +118,7 @@ button {
 
 img,
 section.hero .secondary,
+footer,
 ul > a {
     color: #e5e7eb;
 }
@@ -201,6 +204,7 @@ div.modal {
 
 /* FLEX WRAP */
 body,
+footer,
 section,
 figure,
 nav > ul,
@@ -233,7 +237,7 @@ section.hero>* {
 div.image,
 .cards,
 .card,
-section {
+section{
     justify-content: center;
 }
 
@@ -246,10 +250,8 @@ div.image {
     align-items: center;
 }
 
-
-
 /* TEXT ALIGN */
-section.info {
+section.info, footer {
     text-align: center;
 }
 
